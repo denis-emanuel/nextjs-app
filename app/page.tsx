@@ -2,11 +2,15 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 
+import Layout, { siteTitle } from "@/components/layout";
+
+import utilStyles from "@/styles/utils.module.css";
+
 export default function Home() {
   return (
-    <div>
+    <Layout home>
       <Head>
-        <title>Create Next App</title>
+        <title>{siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className="title"></h1>
@@ -17,6 +21,6 @@ export default function Home() {
         height={500}
         alt="Ayrton Senna 1988"
       />
-    </div>
+    </Layout>
   );
 }

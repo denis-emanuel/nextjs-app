@@ -25,3 +25,11 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(var(--foreground-rgb));
+}
