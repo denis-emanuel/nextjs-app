@@ -14,7 +14,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1 className="title"></h1>
-      Read <Link href="/posts/first-post">this page!</Link>
+      Read <Link href="/posts/first-post">the first post!</Link>
+      <br />
+      Read <Link href="/posts/something">something!</Link>
       <Image
         src="/images/Ayrton_Senna_1988_Canada.webp"
         width={500}
