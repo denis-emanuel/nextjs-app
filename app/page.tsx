@@ -9,10 +9,7 @@ export default function Home() {
         <title>My page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1 className="title"></h1>
-      Read <Link href="/posts/first-post">the first post!</Link>
-      <br />
-      Read <Link href="/posts/something">something!</Link>
+      <h1>Welcome to my app</h1>
       <Image
         src="/images/Ayrton_Senna_1988_Canada.webp"
         width={500}
